@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="https://kit.fontawesome.com/bf7d389ac4.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<style type="text/css">
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100px;
+  background: gray;
+  align-items: center;
+}
+
+.flex-container > .flex-item {
+width: 320px;
+height: 80px;
+border-radius: 5px;
+margin: 10px;
+background: #efefef;
+display: inline-flex;
+align-items: center;
+box-shadow: 2px 2px #efdbdb;
+}
+
+.flex-container > .flex-item > .info-content-font-1 {
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin: 10px;
+font-size: 40px;
+background: green;
+width: 60px;
+padding: 15px;
+color: white;
+border-radius: 4px;
+}
+
+.flex-container > .flex-item > .info-content-font-2 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+margin: 10px;
+font-size: 40px;
+background: navy;
+width: 60px;
+padding: 15px;
+color: white;
+border-radius: 4px;
+
+}
+
+.flex-container > .flex-item > .info-content-font-3 {
+   display: inline-flex;
+  justify-content: center;
+  align-items: center;
+margin: 10px;
+font-size: 40px;
+background: royalblue;
+width: 60px;
+padding: 15px;
+color: white;
+border-radius: 4px;
+
+}
+
+
+.flex-container > .flex-item > .info-content-font-4  {
+   display: inline-flex;
+  justify-content: center;
+  align-items: center;
+margin: 10px;
+font-size: 40px;
+background: red;
+width: 60px;
+padding: 15px;
+color: white;
+border-radius: 4px;
+}
+
+.flex-item > .item-content > span {
+   display: block;
+   margin: 5px;
+}
+
+.flex-item > .item-content > span:nth-child(2) {
+ font-weight: bold;
+ font-size: 20px;
+}
+
+</style>
+</head>
+<body>
+
+              <div class="flex-container">
+
+                  <div class="flex-item">
+                      <span class="info-content-font-1"><i class="fas fa-truck-loading"></i></span>
+                      <div class="item-content">
+                        <span class="info-text">Total Supplierss</span>
+                        <span class="info-number">
+                          1
+                        </span>
+                      </div> <!-- item-content -->
+                  </div> <!-- flex-item -->
+
+                  <div class="flex-item">
+                      <span class="info-content-font-2"><i class="fas fa-boxes"></i></span>
+                      <div class="item-content">
+                        <span class="info-text">Total Items</span>
+                        <span class="info-number">
+                        2
+                        </span>
+                      </div> <!-- item-content -->
+                  </div> <!-- flex-item -->
+
+                  <div class="flex-item">
+                      <span class="info-content-font-3"><i class="fas fa-file-invoice"></i></span>
+                      <div class="item-content">
+                        <span class="info-text">Approve P.O.</span>
+                        <span class="info-number">
+                        3
+                        </span>
+                      </div> <!-- item-content -->
+                  </div> <!-- flex-item -->
+
+                  <div class="flex-item">
+                      <span class="info-content-font-4"><i class="fas fa-file-invoice"></i></span>
+                      <div class="item-content">
+                        <span class="info-text">Denied P.O.</span>
+                        <span class="info-number">
+                        4
+                        </span> 
+                      </div> <!-- item-content -->
+                  </div> <!-- flex-item -->
+
+              </div>
+</body>
+</html>
